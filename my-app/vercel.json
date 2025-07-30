@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rewrites": [
+    { 
+      "source": "/api/:path*", 
+      "destination": "https://hackverse-hackathon-team-snav.onrender.com/api/:path*" 
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+} 
